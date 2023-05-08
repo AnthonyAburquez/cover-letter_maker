@@ -7,8 +7,9 @@ import os
 import shutil #switching directory
 
 def myGPT(prompt):
-
-    openai.api_key="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"
+    #Insert your api, search for openai api key, if you don't have an account, create one. 
+    api=""
+    openai.api_key=api
     # Set up the model and prompt
     model_engine = "text-davinci-003"
 
